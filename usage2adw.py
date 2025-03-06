@@ -975,7 +975,7 @@ def update_cost_reference(connection, tag_special_key, tag_special_key2, tag_spe
 ##########################################################################
 # update_usage_reference
 ##########################################################################
-def update_usage_reference(connection, tag_special_key, tag_special_key2, tag_special_key3, tag_special_key4 tenant_name):
+def update_usage_reference(connection, tag_special_key, tag_special_key2, tag_special_key3, tag_special_key4, tenant_name):
     try:
         start_time = time.time()
 
