@@ -19,7 +19,7 @@ export EXTRA_VARIABLE=$1
 
 # App dir
 export TNS_ADMIN=$HOME/ADWCUSG
-export APPDIR=$HOME/usage_reports_to_adw
+export APPDIR=$HOME/testADW
 export SHOWOCI_DIR=$HOME/showoci
 export CREDFILE=$APPDIR/config.user
 cd $APPDIR

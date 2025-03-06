@@ -18,7 +18,7 @@ export PATH=$PATH:$CLIENT_HOME/bin
 
 # App dir
 export TNS_ADMIN=$HOME/ADWCUSG
-export APPDIR=$HOME/usage_reports_to_adw
+export APPDIR=$HOME/testADW
 export CREDFILE=$APPDIR/config.user
 cd $APPDIR
 
