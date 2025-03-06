@@ -1750,7 +1750,7 @@ def load_cost_file(connection, object_storage, object_file, max_file_id, cmd, te
             :6, :7, :8, :9, :10,
             :11, to_number(:12), to_number(:13) ,:14, :15,
             :16, to_number(:17), to_number(:18), to_number(:19), to_number(:20), to_number(:21), to_number(:22),
-            :23, :24, :25, :26, :27, :28, :29, :30
+            :23, :24, :25, :26, :27, :28, :29, :30, :31, :32
             ) """
 
             # insert bulk to database
@@ -2019,7 +2019,7 @@ def load_usage_file(connection, object_storage, object_file, max_file_id, cmd, t
             ) VALUES (
             :1, :2, to_date(:3,'YYYY-MM-DD HH24:MI'), to_date(:4,'YYYY-MM-DD HH24:MI'), :5, :6,
             :7, :8, :9, :10, :11, :12,
-            to_number(:13), to_number(:14), :15, :16, :17 ,:18, :19, :20, :21
+            to_number(:13), to_number(:14), :15, :16, :17 ,:18, :19, :20, :21, :22, :23
             )"""
 
             # Adjust the batch size to meet memory and performance requirements
